@@ -1,0 +1,212 @@
+{
+  "about": {
+    "name": "Arvind Kumar",
+    "title": "Full Stack Software Engineer & Architect",
+    "tagline": "Crafting scalable digital solutions with state-of-the-art aesthetics and robust engineering.",
+    "bio": "I am a passionate Full Stack Software Engineer with expertise in modern React/Next.js architectures, Node.js cloud services, and scalable database systems. I thrive at the intersection of beautiful user interface engineering and performant distributed backend systems.",
+    "location": "New Delhi, India",
+    "email": "contact@arvind.dev",
+    "phone": "+91 98765 43210",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com",
+    "resumeUrl": "/resume/arvind_resume.pdf",
+    "stats": [
+      {
+        "label": "Years Experience",
+        "value": "4+"
+      },
+      {
+        "label": "Projects Shipped",
+        "value": "35+"
+      },
+      {
+        "label": "Client Satisfaction",
+        "value": "99%"
+      },
+      {
+        "label": "GitHub Stars",
+        "value": "1.2k+"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "1",
+      "name": "Next.js & React",
+      "category": "Frontend",
+      "level": 95,
+      "icon": "Code"
+    },
+    {
+      "id": "2",
+      "name": "TypeScript & JavaScript",
+      "category": "Frontend",
+      "level": 95,
+      "icon": "Terminal"
+    },
+    {
+      "id": "3",
+      "name": "Modern CSS & Tailwind",
+      "category": "Frontend",
+      "level": 92,
+      "icon": "Palette"
+    },
+    {
+      "id": "4",
+      "name": "Node.js & Express",
+      "category": "Backend",
+      "level": 90,
+      "icon": "Server"
+    },
+    {
+      "id": "5",
+      "name": "MongoDB & PostgreSQL",
+      "category": "Database",
+      "level": 88,
+      "icon": "Database"
+    },
+    {
+      "id": "6",
+      "name": "GraphQL & REST APIs",
+      "category": "Backend",
+      "level": 92,
+      "icon": "Globe"
+    },
+    {
+      "id": "7",
+      "name": "Docker & CI/CD Pipelines",
+      "category": "DevOps",
+      "level": 85,
+      "icon": "Cpu"
+    },
+    {
+      "id": "8",
+      "name": "AWS & Vercel Cloud",
+      "category": "Cloud",
+      "level": 86,
+      "icon": "Cloud"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Aetheria Cloud Analytics Platform",
+      "description": "Enterprise-grade real-time cloud observability and analytics suite built with Next.js 14, WebSockets, and ClickHouse backend.",
+      "category": "Full Stack",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "WebSockets",
+        "Chart.js"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Luminary AI Code Copilot Hub",
+      "description": "AI-powered developer IDE workspace providing contextual intelligent code completions, multi-agent workflows, and semantic search.",
+      "category": "AI / ML",
+      "tags": [
+        "React",
+        "Python",
+        "LLMs",
+        "Vector DB"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Nexus High-Frequency E-Commerce API",
+      "description": "Distributed microservice commerce backend handling 50k requests/sec with Redis caching, PostgreSQL partition tables, and Stripe checkout.",
+      "category": "Backend",
+      "tags": [
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Stripe"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "Vortex Design System & Component Studio",
+      "description": "Accessible, glassmorphic UI component library and visual theme builder for high-velocity frontend engineering teams.",
+      "category": "Frontend",
+      "tags": [
+        "React",
+        "CSS Modules",
+        "Accessibility",
+        "Design Tokens"
+      ],
+      "liveUrl": "https://example.com",
+      "githubUrl": "https://github.com",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "role": "Senior Full Stack Engineer",
+      "company": "HyperNova Systems",
+      "period": "2024 - Present",
+      "description": "Architected micro-frontends and core API systems serving over 2M monthly active users. Reduced latency by 42% via edge caching and query optimization."
+    },
+    {
+      "id": "2",
+      "role": "Full Stack Software Engineer",
+      "company": "Zenith Digital Labs",
+      "period": "2022 - 2024",
+      "description": "Developed end-to-end SaaS platforms using Next.js, GraphQL, and Node.js. Led migration to containerized Docker workflows."
+    },
+    {
+      "id": "3",
+      "role": "Frontend Engineer",
+      "company": "Apex Tech Innovations",
+      "period": "2021 - 2022",
+      "description": "Built responsive, high-performance web applications and design systems with React and modern CSS architectures."
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "Bachelor of Technology in Computer Science",
+      "institution": "National Institute of Technology",
+      "year": "2017 - 2021",
+      "grade": "9.2 CGPA (First Class with Distinction)"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2025",
+      "credentialId": "AWS-ARCH-2025-9981",
+      "link": "https://aws.amazon.com"
+    },
+    {
+      "id": "2",
+      "title": "Full Stack Distributed Engineering Specialization",
+      "issuer": "Coursera & Stanford",
+      "date": "2024",
+      "credentialId": "CS-DIST-2024-4412",
+      "link": "https://coursera.org"
+    },
+    {
+      "id": "3",
+      "title": "Advanced React & Next.js Performance Professional",
+      "issuer": "Frontend Masters",
+      "date": "2023",
+      "credentialId": "FM-NEXT-2023-1109",
+      "link": "https://frontendmasters.com"
+    }
+  ],
+  "messages": []
+}
