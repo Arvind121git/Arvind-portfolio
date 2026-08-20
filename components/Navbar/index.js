@@ -62,7 +62,7 @@ export default function Navbar() {
           </div>
           <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#fff', letterSpacing: '-0.5px' }}>
             {SITE_NAME.split(' ')[0]}
-            <span className="gradient-text">.dev</span>
+            <span className="gradient-text"> Portfolio</span>
           </span>
         </Link>
 
