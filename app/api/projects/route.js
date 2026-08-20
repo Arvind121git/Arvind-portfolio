@@ -3,6 +3,8 @@ import { db } from '../../../lib/db';
 import { getAuthenticatedUser } from '../../../lib/auth';
 import { generateId } from '../../../utils/helper';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   try {
     const projects = await db.getCollection('projects');

@@ -4,6 +4,8 @@ import { getAuthenticatedUser } from '../../../lib/auth';
 import { generateId } from '../../../utils/helper';
 import { validateContactForm } from '../../../utils/validation';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request) {
   const user = getAuthenticatedUser(request);
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });

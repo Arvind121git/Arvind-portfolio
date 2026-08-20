@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { signToken } from '../../../lib/jwt';
 import { getAuthenticatedUser } from '../../../lib/auth';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request) {
   try {
     const { email, password } = await request.json();
