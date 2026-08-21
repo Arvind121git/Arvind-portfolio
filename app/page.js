@@ -9,7 +9,7 @@ import Education from '../components/Education';
 import Certificate from '../components/Certificate';
 import Contact from '../components/Contact';
 
-export const revalidate = 0;
+export const dynamic = 'force-dynamic';
 
 export default async function HomePage() {
   const about = await db.getCollection('about');

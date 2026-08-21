@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { SITE_NAME, NAV_LINKS } from '../../utils/constants';
-import { Menu, X, Terminal, Shield } from 'lucide-react';
+import { Menu, X, Terminal } from 'lucide-react';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -103,11 +103,6 @@ export default function Navbar() {
         </nav>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-          <Link href="/admin/login" className="btn-secondary" style={{ padding: '8px 16px', fontSize: '0.85rem' }}>
-            <Shield size={16} />
-            <span>Admin</span>
-          </Link>
-
           {/* Mobile menu trigger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

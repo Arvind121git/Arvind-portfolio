@@ -3,7 +3,7 @@ import { db } from '../../lib/db';
 import About from '../../components/About';
 import Education from '../../components/Education';
 
-export const revalidate = 0;
+export const dynamic = 'force-dynamic';
 
 export default async function AboutPage() {
   const about = await db.getCollection('about');

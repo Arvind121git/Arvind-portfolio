@@ -2,7 +2,7 @@ import React from 'react';
 import { db } from '../../lib/db';
 import Experience from '../../components/Experience';
 
-export const revalidate = 0;
+export const dynamic = 'force-dynamic';
 
 export default async function ExperiencePage() {
   const experience = await db.getCollection('experience');

@@ -8,8 +8,8 @@ A modern, high-aesthetic, responsive developer portfolio built with **Next.js Ap
 
 - **High-Aesthetic Dark Theme UI**: Glassmorphic cards, glowing borders, smooth hover animations, curated typography & color palettes.
 - **Dynamic Content & API Routes**: Full CRUD support for Projects, Skills, Experience, Education, Certificates, About info, and Contact Messages.
-- **Out-of-the-Box Local Database**: Uses a local JSON/In-memory store automatically so you don't need to configure MongoDB to run locally. (Can be switched to MongoDB by setting `MONGODB_URI` in `.env.local`).
-- **Admin Dashboard (`/admin/login`)**: Manage projects, skills, certificates, experience, education, resume, and view contact form submissions.
+- **Out-of-the-Box Database**: Uses MySQL / Prisma or local storage adapter automatically for high-performance dynamic queries.
+- **Hidden Admin Panel**: The Admin Panel link is hidden from public site UI for privacy and accessible only via direct route.
 
 ---
 
@@ -29,12 +29,11 @@ Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
 ---
 
-## 🔐 Admin Panel Access
+## 🔐 Private Admin Access
 
-1. Go to [http://localhost:3000/admin/login](http://localhost:3000/admin/login)
-2. **Default Credentials** (configured in `.env.local`):
-   - **Email**: `admin@arvind.dev`
-   - **Password**: `admin123`
+The Admin Panel button is hidden from public site navigation. To access the admin studio:
+1. Navigate directly to `http://localhost:3000/admin` (or your live domain `/admin`)
+2. Enter your authorized admin credentials.
 
 ---
 
